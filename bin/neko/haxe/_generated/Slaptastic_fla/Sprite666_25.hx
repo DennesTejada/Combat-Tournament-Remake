@@ -1,0 +1,32 @@
+package slaptastic_fla;
+
+@:access(swf.exporters.animate)
+
+class Sprite666_25 extends #if flash flash.display.MovieClip.MovieClip2 #else openfl.display.MovieClip #end
+{
+	@:keep @:noCompletion @:dox(hide) public var Slap01(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var Slap02(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var Slap03(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var Slap04(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var SlapHard01(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var FastSlap(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var hit9(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var UpSlap(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var SlapHard02(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var hit6(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var MegaHandHit(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var Powercharge(default, null):slaptastic_fla.Sprite152_4;
+	@:keep @:noCompletion @:dox(hide) public var GoUp01(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var DownHitSlap01(default, null):slaptastic_fla.Sprite400_28;
+	@:keep @:noCompletion @:dox(hide) public var SlapHard07(default, null):slaptastic_fla.Sprite400_28;
+	
+
+	public function new()
+	{
+		var library = swf.exporters.animate.AnimateLibrary.get("wKvnIY3i7CZhr8daa4MW");
+		var symbol = library.symbols.get(482);
+		symbol.__init(library);
+
+		super();
+	}
+}

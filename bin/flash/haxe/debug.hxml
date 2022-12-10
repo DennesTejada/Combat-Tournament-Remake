@@ -1,0 +1,44 @@
+-main ApplicationMain 
+-cp C:/HaxeToolkit/haxe/lib/swf/3,2,0/src
+-D swf=3.2.0
+--macro openfl.utils._internal.ExtraParamsMacro.include()
+-cp C:/HaxeToolkit/haxe/lib/openfl/9,2,0/src
+-D openfl=9.2.0
+--macro lime._internal.macros.DefineMacro.run()
+-cp C:/HaxeToolkit/haxe/lib/lime/8,0,0/src
+-D lime=8.0.0
+-cp C:\Users\Dennes\Documents\Games\CTR\bin\flash/haxe/_generated
+-cp src
+-cp C:/HaxeToolkit/haxe/lib/openfl/9,2,0/lib/flash-externs/src
+-D native-trace
+-D tools=8.0.0
+-D flash-use-stage
+-D no-compilation
+-D openfl-flash
+-D fdb
+-D web
+-resource assets/characters/Slaptastic.swf@swf:Slaptastic.swf
+slaptastic_fla.Sprite1361_19
+slaptastic_fla.Sprite365_4
+slaptastic_fla.Sprite245_22
+slaptastic_fla.Sprite371_13
+slaptastic_fla.Sprite356_3
+slaptastic_fla.Sprite1490_20
+slaptastic_fla.Sprite206_7
+slaptastic_fla.Attack1_24
+slaptastic_fla.Sprite1331_17
+slaptastic_fla.Sprite354_2
+SlaptasticAttack
+slaptastic_fla.HurtTop_28
+Slaptastic
+slaptastic_fla.Sprite1338_18
+HitBox
+-resource assets/maps/Box.swf@swf:Box.swf
+BoxStage
+swf.SWFLibrary
+-cp bin/flash
+-swf-lib obj/assets.swf
+-swf-version 17
+-swf bin/flash/bin/CTR.swf
+-cp bin/flash/haxe
+-debug
